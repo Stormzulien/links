@@ -5,7 +5,7 @@
     <link rel="shortcut icon" type="image/png" href="images/icon.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Solway:wght@300;400;500;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/styles.css">
 
@@ -13,7 +13,8 @@
   </head>
   <body>
     <h1><b><span class="box-title">Hello!</span></b></h1>
-    <p>I'm Stormzulien.</p>
+    <p class="p-0">I'm Stormzulien.</p>
+    <div class="surround-box">
     <p class="p-1">Here are some links:</p>
     <!-- buttons -->
     <p><a href="https://www.youtube.com/@stormzulien/" target="_blank">
@@ -33,12 +34,13 @@
     </a></p>
 
     <p>
-      <button class="discord" onclick="copyTextWithAlert('stormzulien', 'Username Copied.')">Discord</button>
+      <button class="discord" title="Copy Username" onclick="copyTextWithAlert('stormzulien', 'Username Copied.')">Discord</button>
     </p>
 
     <p><a href="https://linktr.ee/stormzulien/" target="_blank">
       <button class="linktree">Linktree</button>
     </a></p>
+    </div>
     
   </body>
 </html>

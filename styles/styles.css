@@ -4,10 +4,16 @@ body {
   text-align: center;
 }
 
+.p-0 {
+  font-family: Figtree, Roboto;
+  font-weight: 700;
+}
+
 .p-1 {
   padding-top: 28px;
   font-size: large;
   padding-bottom: 20px;
+  text-shadow: 1px 1px 0px rgba(71, 127, 233, 0.507);
 }
 
 .box-title {
@@ -190,3 +196,18 @@ button:active {
   color: white;
   box-shadow: 4px 4px 0px rgba(100, 91, 224, 0.603);
 }
+
+.surround-box {
+  display: inline-block;
+  /* background-color: #c8d8e6; */
+  border-color: #53697a;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  border-radius: 22px;
+  border-width: 10px;
+  border-style: solid;
+  background: #a3b7c7;
+  background: linear-gradient(122deg, rgba(163, 183, 199, 1) 0%, rgba(126, 215, 217, 1) 100%);
+}
+
